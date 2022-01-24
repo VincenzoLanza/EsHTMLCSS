@@ -1,0 +1,147 @@
+img {
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+}
+h1 {
+    text-align: center;
+    font-size: 25px;
+}
+.pokedex-grid {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}    
+.pokemon-card-infernape {
+    display:flex;
+    flex-direction: column;
+    border: dotted;
+    align-items: center;
+    justify-content: center;
+}
+.pokemon-card-lucario {
+    display:flex;
+    flex-direction: column;
+    border: dotted;
+    align-items: center;
+    justify-content: center;
+}
+.pokemon-card-xerneas {
+    display:flex;
+    flex-direction: column;
+    border: dotted;
+    align-items: center;
+    justify-content: center;
+}
+.Fuoco {
+    color : red;
+}
+.Lotta {
+    color: purple;
+}
+.Normale {
+    color : grey;
+}
+.Folletto{
+    color: pink;
+}
+.Psico{
+    color: palevioletred;
+}
+.Elettro {
+    color : yellow;
+}
+.Terra {
+    color : brown
+}
+#FuocoEl {
+    background-color: red;
+    color:white
+}
+#LottaEl {
+    background-color:purple;
+    color:white
+}
+#NormaleEl {
+    background-color: grey;
+    color:white
+}
+#FollettoEl {
+    background-color: pink;
+    color:white
+}
+#AcciaioEl {
+    background-color: darkgrey;
+    color:white
+}
+.mosse-tipo-container {
+    display:flex;
+    flex-wrap: row-wrap;
+}
+.tipo-container{
+    order:2;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.flex-container-mosse {
+    order: 1;
+    display:flex;
+    flex-direction: column;
+    list-style: none;
+} 
+.infernape-generale{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.evoluzioni-container{
+    display:flex;
+    flex-direction: row;
+}
+.evoluzione-monferno {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.evoluzione-chimchar {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+.immagini-secondarie{
+    display:flex;
+    flex-wrap: column wrap;
+    justify-content: center;
+}
+.Infernape2{
+    display:flex;
+    max-width: 200px;
+    max-height: 200px;
+
+}
+.evoluzione{
+    display:flex;
+    width:150px;
+    height:150px;
+}
+.lucario-generale{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.xerneas-generale{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.evoluzione-riolu {
+    align-items: center;
+    display:flex;
+    justify-content: center;
+
+}
